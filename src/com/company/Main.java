@@ -4,7 +4,7 @@
 
 package com.company;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         //Start-Dialog / Disclaimer

@@ -10,14 +10,15 @@ import java.util.Scanner;
 class Logging {
     //Variablen und Objekte
     private Date date = new Date();
-    private Timestamp timestamp = new Timestamp(date.getTime());
-    private File logFile, SettingsFile;
+    private final Timestamp timestamp = new Timestamp(date.getTime());
+    private final File logFile;
+    private final File SettingsFile;
     private FileWriter fw;
     private PrintWriter pw;
     private int modus;
-    private Scanner keyboardscanner = new Scanner(System.in);
-    private WebCrawler s;
-    private Mail m;
+    private final Scanner keyboardscanner = new Scanner(System.in);
+    private final WebCrawler s;
+    private final Mail m;
 
     void deleteLog(){
         try {

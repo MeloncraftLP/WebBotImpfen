@@ -7,7 +7,7 @@ import javax.mail.internet.MimeMessage;
 
 class Mail {
     //Variablen
-    private Properties prop = new Properties();
+    private final Properties prop = new Properties();
     private String email;
 
     void TerminGefunden(String url){

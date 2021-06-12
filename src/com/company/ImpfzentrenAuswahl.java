@@ -11,77 +11,9 @@ import java.awt.GridLayout;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class ImpfzentrenAuswahl extends JDialog {
+class ImpfzentrenAuswahl extends JDialog {
 
-	private final JPanel contentPanel = new JPanel();
 
-	private JTextField tfname1;
-	private JTextField tfname2;
-	private JTextField tfname3;
-	private JTextField tfname4;
-	private JTextField tfname5;
-	private JTextField tfname6;
-	private JTextField tfname7;
-	private JTextField tfname8;
-	private JTextField tfname9;
-	private JTextField tfname10;
-	private JTextField tfname11;
-	private JTextField tfname12;
-	private JTextField tfname13;
-	private JTextField tfname14;
-	private JTextField tfname15;
-	private JTextField tfname16;
-	private JTextField tfname17;
-	private JTextField tfname18;
-	private JTextField tfname19;
-	private JTextField tfname20;
-
-	private JTextField tfUrl1;
-	private JTextField tfUrl2;
-	private JTextField tfUrl3;
-	private JTextField tfUrl4;
-	private JTextField tfUrl5;
-	private JTextField tfUrl6;
-	private JTextField tfUrl7;
-	private JTextField tfUrl8;
-	private JTextField tfUrl9;
-	private JTextField tfUrl10;
-	private JTextField tfUrl11;
-	private JTextField tfUrl12;
-	private JTextField tfUrl13;
-	private JTextField tfUrl14;
-	private JTextField tfUrl15;
-	private JTextField tfUrl16;
-	private JTextField tfUrl17;
-	private JTextField tfUrl18;
-	private JTextField tfUrl19;
-	private JTextField tfUrl20;
-
-	private JLabel lbl1;
-	private JLabel lbl2;
-	private JLabel lbl3;
-	private JLabel lbl4;
-	private JLabel lbl5;
-	private JLabel lbl6;
-	private JLabel lbl7;
-	private JLabel lbl8;
-	private JLabel lbl9;
-	private JLabel lbl10;
-	private JLabel lbl11;
-	private JLabel lbl12;
-	private JLabel lbl13;
-	private JLabel lbl14;
-	private JLabel lbl15;
-	private JLabel lbl16;
-	private JLabel lbl17;
-	private JLabel lbl18;
-	private JLabel lbl19;
-	private JLabel lbl20;
-
-	
-	
-	
-	
 	/**
 	 * Launch the application.
 	 */
@@ -98,76 +30,77 @@ public class ImpfzentrenAuswahl extends JDialog {
 	/**
 	 * Create the dialog.
 	 */
-	public ImpfzentrenAuswahl() {
+	private ImpfzentrenAuswahl() {
 		setBounds(100, 100, 450, 300);
 		getContentPane().setLayout(new BorderLayout());
+		JPanel contentPanel = new JPanel();
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
 		contentPanel.setLayout(new GridLayout(20, 3, 0, 0));
 		{
-		
-			tfname1 = new JTextField();
-			tfname2 = new JTextField();
-			tfname3 = new JTextField();
-			tfname4 = new JTextField();
-			tfname5 = new JTextField();
-			tfname6 = new JTextField();
-			tfname7 = new JTextField();
-			tfname8 = new JTextField();
-			tfname9 = new JTextField();
-			tfname10 = new JTextField();
-			tfname11 = new JTextField();
-			tfname12 = new JTextField();
-			tfname13 = new JTextField();
-			tfname14 = new JTextField();
-			tfname15 = new JTextField();
-			tfname16 = new JTextField();
-			tfname17 = new JTextField();
-			tfname18 = new JTextField();
-			tfname19 = new JTextField();
-			tfname20 = new JTextField();
 
-			tfUrl1 = new JTextField();
-			tfUrl2 = new JTextField();
-			tfUrl3 = new JTextField();
-			tfUrl4 = new JTextField();
-			tfUrl5 = new JTextField();
-			tfUrl6 = new JTextField();
-			tfUrl7 = new JTextField();
-			tfUrl8 = new JTextField();
-			tfUrl9 = new JTextField();
-			tfUrl10 = new JTextField();
-			tfUrl11 = new JTextField();
-			tfUrl12 = new JTextField();
-			tfUrl13 = new JTextField();
-			tfUrl14 = new JTextField();
-			tfUrl15 = new JTextField();
-			tfUrl16 = new JTextField();
-			tfUrl17 = new JTextField();
-			tfUrl18 = new JTextField();
-			tfUrl19 = new JTextField();
-			tfUrl20 = new JTextField();
+			JTextField tfname1 = new JTextField();
+			JTextField tfname2 = new JTextField();
+			JTextField tfname3 = new JTextField();
+			JTextField tfname4 = new JTextField();
+			JTextField tfname5 = new JTextField();
+			JTextField tfname6 = new JTextField();
+			JTextField tfname7 = new JTextField();
+			JTextField tfname8 = new JTextField();
+			JTextField tfname9 = new JTextField();
+			JTextField tfname10 = new JTextField();
+			JTextField tfname11 = new JTextField();
+			JTextField tfname12 = new JTextField();
+			JTextField tfname13 = new JTextField();
+			JTextField tfname14 = new JTextField();
+			JTextField tfname15 = new JTextField();
+			JTextField tfname16 = new JTextField();
+			JTextField tfname17 = new JTextField();
+			JTextField tfname18 = new JTextField();
+			JTextField tfname19 = new JTextField();
+			JTextField tfname20 = new JTextField();
 
-			lbl1 = new JLabel("1");
-			lbl2 = new JLabel("2");
-			lbl3 = new JLabel("3");
-			lbl4 = new JLabel("4");
-			lbl5 = new JLabel("5");
-			lbl6 = new JLabel("6");
-			lbl7 = new JLabel("7");
-			lbl8 = new JLabel("8");
-			lbl9 = new JLabel("9");
-			lbl10 = new JLabel("10");
-			lbl11 = new JLabel("11");
-			lbl12 = new JLabel("12");
-			lbl13 = new JLabel("13");
-			lbl14 = new JLabel("14");
-			lbl15 = new JLabel("15");
-			lbl16 = new JLabel("16");
-			lbl17 = new JLabel("17");
-			lbl18 = new JLabel("18");
-			lbl19 = new JLabel("19");
-			lbl20 = new JLabel("20");
+			JTextField tfUrl1 = new JTextField();
+			JTextField tfUrl2 = new JTextField();
+			JTextField tfUrl3 = new JTextField();
+			JTextField tfUrl4 = new JTextField();
+			JTextField tfUrl5 = new JTextField();
+			JTextField tfUrl6 = new JTextField();
+			JTextField tfUrl7 = new JTextField();
+			JTextField tfUrl8 = new JTextField();
+			JTextField tfUrl9 = new JTextField();
+			JTextField tfUrl10 = new JTextField();
+			JTextField tfUrl11 = new JTextField();
+			JTextField tfUrl12 = new JTextField();
+			JTextField tfUrl13 = new JTextField();
+			JTextField tfUrl14 = new JTextField();
+			JTextField tfUrl15 = new JTextField();
+			JTextField tfUrl16 = new JTextField();
+			JTextField tfUrl17 = new JTextField();
+			JTextField tfUrl18 = new JTextField();
+			JTextField tfUrl19 = new JTextField();
+			JTextField tfUrl20 = new JTextField();
+
+			JLabel lbl1 = new JLabel("1");
+			JLabel lbl2 = new JLabel("2");
+			JLabel lbl3 = new JLabel("3");
+			JLabel lbl4 = new JLabel("4");
+			JLabel lbl5 = new JLabel("5");
+			JLabel lbl6 = new JLabel("6");
+			JLabel lbl7 = new JLabel("7");
+			JLabel lbl8 = new JLabel("8");
+			JLabel lbl9 = new JLabel("9");
+			JLabel lbl10 = new JLabel("10");
+			JLabel lbl11 = new JLabel("11");
+			JLabel lbl12 = new JLabel("12");
+			JLabel lbl13 = new JLabel("13");
+			JLabel lbl14 = new JLabel("14");
+			JLabel lbl15 = new JLabel("15");
+			JLabel lbl16 = new JLabel("16");
+			JLabel lbl17 = new JLabel("17");
+			JLabel lbl18 = new JLabel("18");
+			JLabel lbl19 = new JLabel("19");
+			JLabel lbl20 = new JLabel("20");
 
 			contentPanel.add(lbl1);
 			contentPanel.add(tfname1);

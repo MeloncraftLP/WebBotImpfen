@@ -12,10 +12,10 @@ class WebCrawler {
     private String ImpfzentrumURL, ImpfzentrumName;
     private int warteraumWarten;
     int Impfzentrum;
-    private WebDriver chrome;
+    private final WebDriver chrome;
     private String Nummer;
-    private Logging c;
-    private Mail m;
+    private final Logging c;
+    private final Mail m;
 
     int Setup(){
         //wird am Anfang ausgeführt
