@@ -1,0 +1,17 @@
+//KEINE ZEILEN LÖSCHEN, STRUKTUR HALTEN!!! (Email,Nummer,NameImpfzentrumMitNummer, URL,Leerzeile, NamenWeitererImpfzentren, URLWeitererImpfzentren) 
+//Insgesamt bitte nicht mehr als 20 Links einfügen. Die erste Kombination ist, falls eine Nummer vorhanden ist. Es muss immer ein Name und ein Link vorhanden sein, wie in der Vorlage. Ansonsten kommt es zu Fehlern.
+email
+nummer
+nameImpfzentrum(Vermittlungscode)
+urlImpfzentrum(Vermittlungscode)
+//leere Zeile
+name1
+url1
+name2
+url2
+name3
+url3
+name4
+url4
+name5
+url5
